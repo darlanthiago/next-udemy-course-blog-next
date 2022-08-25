@@ -1,0 +1,12 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: 100px;
+  grid-gap: 10px;
+}
